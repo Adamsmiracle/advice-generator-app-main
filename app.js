@@ -34,9 +34,9 @@ function updateUi(response) {
 changeBtn.addEventListener("click", () => {
     clearInterval(interval)
     getAdvice()
-    setInterval(() => {
-        getAdvice()
-    }, 30000)
+    // setInterval(() => {
+    //     getAdvice()
+    // }, 30000)
 
 })
 
